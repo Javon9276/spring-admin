@@ -6,8 +6,9 @@
 前端使用后台集成框架 [vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/)，它基于 [vue](https://cn.vuejs.org/) 和 [element-ui](https://element.eleme.cn/#/zh-CN/) 实现。详细开发说明可以看Element-ui文档。
 
 ### 搭建过程
-1. 搭建node.js环境，下载地址：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/) 并且更改环境变量
-2. 在app目录下运行
+1. 搭建node.js环境，下载地址：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/) 
+2. 增加npm环境变量，把目录`C:\Users\{User}\AppData\Roaming\npm`添加到环境变量Path中，`{User}`为自身电脑名称
+3. 在app目录下运行
 ```
 # 安装全局Vue cli
 npm install --global vue-cli
